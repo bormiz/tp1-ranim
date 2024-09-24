@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 100px; /* Remove margin to avoid spacing issues */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;/* Make the container a flexbox */
+}
+
+.card {
+    margin: 10px;
+    width: 200px;  /* Fixed width for cards */
+    height: 300px; /* Fixed height for cards */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Stack children vertically */
+}
+
+.card-img-top {
+    width: 150px; /* Full width of the card */
+    height: 150px; /* Fixed height for images */
+    object-fit: contain;
+    margin-top: 30px;/* Cover the area without distortion */
+}

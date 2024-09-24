@@ -1,0 +1,40 @@
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+form {
+    background-color: white; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    margin-bottom: 20px; /* Space below the title */
+    text-align: center; /* Center the title */
+}
+
+.btn-primary {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Increase button padding */
+    font-size: 16px; /* Larger font for the button */
+}
+
+.form-label {
+    font-weight: bold; /* Bold labels */
+}
+
+input {
+    border-radius: 5px; /* Rounded input fields */
+    border: 1px solid #ced4da; /* Default border color */
+}
+
+input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add shadow on focus */
+}
